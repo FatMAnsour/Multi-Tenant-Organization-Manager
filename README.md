@@ -9,7 +9,7 @@ A secure, multi-tenant backend service that lets users create organizations, inv
 **Requirements:** Docker and Docker Compose installed.
 
 ```bash
-git clone [<this-repo-url>](https://github.com/FatMAnsour/Multi-Tenant-Organization-Manager.git)
+git clone https://github.com/FatMAnsour/Multi-Tenant-Organization-Manager.git
 cd multi_tenant_assignment
 docker compose up --build
 ```
