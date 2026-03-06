@@ -216,7 +216,3 @@ Relations:
 - **LLM**: Groq (`GROQ_API_KEY` in .env; default model `llama-3.1-8b-instant`).
 
 ---
-
-## License
-
-MIT (or as required by your organization.)
