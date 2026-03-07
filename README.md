@@ -57,7 +57,7 @@ docker compose up --build
 ```
 
 - Backend: **http://localhost:8000**
-- API (e.g. register): **http://localhost:8000/auth/register**
+- API (ex register): **http://localhost:8000/auth/register**
 
 Migrations run automatically. Default DB credentials (postgres/postgres) are used; no `.env` required. Optional: copy `.env.example` to `.env` to override or set `GROQ_API_KEY`.
 
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 pytest
 ```
 
-To run tests against an existing Postgres (e.g. in CI) and skip testcontainers:
+To run tests against an existing Postgres (ex in CI) and skip testcontainers:
 
 ```bash
 USE_TESTCONTAINERS=0 pytest
@@ -172,7 +172,7 @@ Relations:
    PostgreSQL `to_tsvector` / `tsquery` via Django’s `SearchVector` and `SearchQuery` on `email` and `full_name`, restricted to users in the organization. A GIN index on the user table (migration) keeps search fast.
 
 6. **Audit logging**  
-   One `AuditLog` model; actions (e.g. organization_created, user_invited, item_created, items_listed) are written in the view layer. No async queue; good enough for the assignment.
+   One `AuditLog` model; actions (ex organization_created, user_invited, item_created, items_listed) are written in the view layer. No async queue; good enough for the assignment.
 
 7. **Chatbot (LLM)**  
    Optional. If `GROQ_API_KEY` is set, the “ask” endpoint uses Groq to answer questions about today’s audit logs; otherwise it returns a short placeholder. Streaming returns NDJSON chunks.
