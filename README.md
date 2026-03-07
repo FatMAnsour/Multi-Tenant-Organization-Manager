@@ -44,10 +44,6 @@ No `.env` or local Python/PostgreSQL needed; defaults are used. Optional: add a 
 - **Insights**: Admins ask an AI chatbot questions about today’s activity (optional streaming).
 - **Deployment**: One command: `docker compose up`.
 
-- **Full explanation & manual test flow:** [MANUAL_TESTING.md](MANUAL_TESTING.md)
-- **Verify each endpoint against the spec (TS):** [ENDPOINT_VERIFICATION.md](ENDPOINT_VERIFICATION.md)
-- **Postman:** Import [postman_collection.json](postman_collection.json) for all endpoints.
-
 ---
 
 ## How to Run
