@@ -3,6 +3,10 @@
 A secure, multi-tenant backend service that lets users create organizations, invite members with roles, manage items, and view audit logs with an AI chatbot. Built with **Django** (instead of FastAPI), Django REST Framework, JWT, PostgreSQL, and Docker.
 
 ---
+## Sample Video
+
+[Uploading Screencast from 2026-03-06 19-26-36.webm…]()
+
 
 ## For reviewers – run with Docker (no setup)
 
